@@ -12,8 +12,7 @@ Ementa do curso
 - Variáveis e declaração de variáveis  
 - Formatos numéricos  
 - Números complexos  
-- Sistemas lineares e suas aplicações  
-- Polinômios e suas aplicações  
+- Sistemas lineares e suas aplicações    
 - Matrizes  
 
 ## 🔹 3. Operações  
@@ -31,7 +30,7 @@ Ementa do curso
 - Plotagem de gráficos 2D e 3D  
 - Estatística para análise de dados  
 - Testes de hipótese  
-- Ajuste de modelos  
+- Ajuste de modelos para análise estatística  
 
 ## 🔹 6. Aplicações Práticas  
 - Processamento de dados tabulares  
