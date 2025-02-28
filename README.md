@@ -14,12 +14,8 @@ Repositório para o Curso de Aperfeiçoamento Avançado em Guerra Acústica da M
 <details>
   <summary>Índice</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">Sobre o Curso</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
+    <li><a href="#about-the-project">Sobre o Curso</a></li>
+    <li><a href="#built-with">Para utilizar</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -36,9 +32,10 @@ Repositório para o Curso de Aperfeiçoamento Avançado em Guerra Acústica da M
   </ol>
 </details>
 
-## Ementa do curso
 <!-- label-->
 <a id="about-the-project"></a>
+## Ementa do curso
+
 
 ## 🔹 1. Introdução  
 - Linguagens de programação  
@@ -78,6 +75,9 @@ Repositório para o Curso de Aperfeiçoamento Avançado em Guerra Acústica da M
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- label-->
+<a id="about-the-project"></a>
+
 ## Para utilizar:
 
 _Abaixo seguem as instruções de utilização do repositório_
@@ -94,7 +94,7 @@ docker build . --tag=natmourajr/guerraacustica:lastest
 ```bash
 docker run --rm -it -v $(pwd):/workspace natmourajr/sonarnovelty:lastest 
 ```
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 ## Lista de Tarefas do Repo     
