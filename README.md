@@ -120,14 +120,14 @@ docker run --rm -it -v $(pwd):/workspace natmourajr/sonarnovelty:lastest
 
 - [x] Melhorar a apresentação do Repo
 - [ ] Adicionar novos exemplos na Introdução
-- [ ] Adicionar novos exemplos na Introdução
-- [ ] Adicionar novos exemplos na Introdução
-    - [ ] Chinese
-    - [ ] Spanish
-- [ ] Adicionar novos exemplos na Introdução
-- [ ] Adicionar novos exemplos na Introdução
+- [ ] Adicionar novos exemplos em Gráficos em Python
+- [ ] Adicionar novos exemplos em Arquivos em Python
+    - [ ] Binários
+    - [ ] Texto
+- [ ] Adicionar novos exemplos em Aplicações
+    - [ ] Processamento de Sinais
 
-See the [open issues](https://github.com/natmourajr/CursoGuerraAcustica/issues) for a full list of proposed features (and known issues).
+A lista de [open issues](https://github.com/natmourajr/CursoGuerraAcustica/issues) para análise e visualização de novas características
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
