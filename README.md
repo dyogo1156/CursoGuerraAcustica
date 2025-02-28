@@ -49,7 +49,7 @@ Repositório para o Curso de Aperfeiçoamento Avançado em Guerra Acústica da M
 ## Para utilizar:
 
 ```bash
-docker run -p 10000:8888 quay.io/jupyter/scipy-notebook:2025-02-12
+git clone 
 ```
 
 
