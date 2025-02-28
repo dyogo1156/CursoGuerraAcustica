@@ -1,4 +1,6 @@
 # Curso Guerra Acustica
+<!-- label-->
+<a id="readme-top"></a>
 Repositório para o Curso de Aperfeiçoamento Avançado em Guerra Acústica da Marinha do Brasil. Curso ministrado em colaboração Laboratório de Processamento de Sinais/UFRJ e Centro de Instrução Almirante Alexandrino/CIAA
 
 <!-- PROJECT LOGO -->
@@ -7,13 +9,13 @@ Repositório para o Curso de Aperfeiçoamento Avançado em Guerra Acústica da M
     <img width="400" src="https://github.com/natmourajr/import_logos/blob/16a8e62184f4a494743d2c9f2a6be9b2f0db67d0/logo_lps.jpg?raw=1">
     <img width="200" src="https://github.com/natmourajr/data/blob/85e02f4e405bdb3c3d8cd9ea413c7329de8f3712/ciaa.png?raw=1">
 </div>
-<a id="readme-top"></a>
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Índice</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">Sobre o Curso</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -35,6 +37,8 @@ Repositório para o Curso de Aperfeiçoamento Avançado em Guerra Acústica da M
 </details>
 
 ## Ementa do curso
+<!-- label-->
+<a id="about-the-project"></a>
 
 ## 🔹 1. Introdução  
 - Linguagens de programação  
@@ -71,6 +75,8 @@ Repositório para o Curso de Aperfeiçoamento Avançado em Guerra Acústica da M
 - Processamento de dados de imagem  
 - Processamento de dados de áudio  
 - Outras aplicações em ciência de dados  
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Para utilizar:
 
