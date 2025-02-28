@@ -48,8 +48,19 @@ Repositório para o Curso de Aperfeiçoamento Avançado em Guerra Acústica da M
 
 ## Para utilizar:
 
+_Abaixo seguem as instruções de utilização do repositório_
+
+1. Clone o repo para sua máquina
 ```bash
-git clone 
+git clone https://github.com/natmourajr/CursoGuerraAcustica.git
+```
+2. Monte a imagem Docker na sua máquina
+```bash
+docker build . --tag=natmourajr/guerraacustica:lastest 
+```
+3. Rode a imagem Docker na sua máquina
+```bash
+docker run --rm -it -v $(pwd):/workspace natmourajr/sonarnovelty:lastest 
 ```
 
 
