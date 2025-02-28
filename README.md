@@ -63,6 +63,22 @@ docker build . --tag=natmourajr/guerraacustica:lastest
 docker run --rm -it -v $(pwd):/workspace natmourajr/sonarnovelty:lastest 
 ```
 
+## Lista de Tarefas do Repo
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Melhorar a apresentação do Repo
+- [ ] Adicionar novos exemplos na Introdução
+- [ ] Adicionar novos exemplos na Introdução
+- [ ] Adicionar novos exemplos na Introdução
+    - [ ] Chinese
+    - [ ] Spanish
+- [ ] Adicionar novos exemplos na Introdução
+- [ ] Adicionar novos exemplos na Introdução
+
+See the [open issues](https://github.com/natmourajr/CursoGuerraAcustica/issues) for a full list of proposed features (and known issues).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
