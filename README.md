@@ -1,6 +1,30 @@
 # Curso Guerra Acustica
 Repositório para o Curso de Aperfeiçoamento Avançado em Guerra Acústica da Marinha do Brasil
-Ementa do curso
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+    <img width="400" src="https://github.com/natmourajr/import_logos/blob/16a8e62184f4a494743d2c9f2a6be9b2f0db67d0/logo_lps.jpg?raw=1">
+    <img width="200" src="https://github.com/natmourajr/data/blob/85e02f4e405bdb3c3d8cd9ea413c7329de8f3712/ciaa.png?raw=1">
+
+    
+  <h3 align="center">Best-README-Template</h3>
+
+  <p align="center">
+    An awesome README template to jumpstart your projects!
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    &middot;
+    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    &middot;
+    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  </p>
+</div>
+
+## Ementa do curso
 
 ## 🔹 1. Introdução  
 - Linguagens de programação  
@@ -74,28 +98,7 @@ docker run -p 10000:8888 quay.io/jupyter/scipy-notebook:2025-02-12
 
 
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    &middot;
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    &middot;
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-  </p>
-</div>
 
 
 
