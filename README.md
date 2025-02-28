@@ -107,7 +107,7 @@ git clone https://github.com/natmourajr/CursoGuerraAcustica.git
 ```
 2. Monte a imagem Docker na sua máquina
 ```bash
-docker build . --tag=natmourajr/guerraacustica:lastest 
+docker build . --tag=natmourajr/curso_guerra_acustica:lastest
 ```
 3. Rode a imagem Docker na sua máquina
 ```bash
