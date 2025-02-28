@@ -3,6 +3,20 @@
 <a id="readme-top"></a>
 Repositório para o Curso de Aperfeiçoamento Avançado em Guerra Acústica da Marinha do Brasil. Curso ministrado em colaboração Laboratório de Processamento de Sinais/UFRJ e Centro de Instrução Almirante Alexandrino/CIAA
 
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![Unlicense License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -16,6 +30,7 @@ Repositório para o Curso de Aperfeiçoamento Avançado em Guerra Acústica da M
   <ol>
     <li><a href="#about-the-project">Sobre o Curso</a></li>
     <li><a href="#built-with">Para utilizar</a></li>
+    <li><a href="#roadmap">Lista de Tarefas</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -34,6 +49,7 @@ Repositório para o Curso de Aperfeiçoamento Avançado em Guerra Acústica da M
 
 <!-- label-->
 <a id="about-the-project"></a>
+
 ## Ementa do curso
 
 
@@ -76,7 +92,7 @@ Repositório para o Curso de Aperfeiçoamento Avançado em Guerra Acústica da M
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- label-->
-<a id="about-the-project"></a>
+<a id="built-with"></a>
 
 ## Para utilizar:
 
@@ -121,29 +137,6 @@ See the [open issues](https://github.com/natmourajr/CursoGuerraAcustica/issues) 
 *** Don't forget to give the project a star!
 *** Thanks again! Now go create something AMAZING! :D
 -->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![Unlicense License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -190,7 +183,6 @@ Of course, no one template will serve all projects since your needs may be diffe
 Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ### Built With
