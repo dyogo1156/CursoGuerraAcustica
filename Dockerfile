@@ -1,13 +1,13 @@
 # base image
-FROM jupyter/minimal-notebook:x86_64-ubuntu-22.04
+FROM jupyter/datascience-notebook:x86_64-ubuntu-22.04
 
-LABEL maintainer "Natanael Moura Junior <natmourajr@lps.ufrj.br>"
+LABEL maintainer="Natanael Moura Junior <natmourajr@lps.ufrj.br>"
 
 USER root
-ENV LC_ALL C.UTF-8
-ENV LANG en_US.UTF-8
-ENV LANGUAGE en_US:en
-ENV TERM screen
+ENV LC_ALL=C.UTF-8
+ENV LANG=en_US.UTF-8
+ENV LANGUAGE=en_US:en
+ENV TERM=screen
 
 RUN ls
 
@@ -37,5 +37,6 @@ RUN pip install jax[cuda11_cudnn82] -f https://storage.googleapis.com/jax-releas
 # Install pip packages
 RUN mkdir /images
 RUN cd /images && git clone https://github.com/natmourajr/CursoGuerraAcustica.git
-RUN cd /images/CursoGuerraAcustica && pip install -r requirements.txt
+RUN cd /images/CursoGuerraAcustica 
+RUN sudo pip install -r /images/CursoGuerraAcustica/requirements.txt
 RUN cd / && rm -rf /images
