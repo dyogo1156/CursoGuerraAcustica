@@ -33,7 +33,7 @@ RUN \
 RUN apt-get update -y
 RUN apt-get install -y libsndfile-dev
 RUN pip install --no-cache-dir --upgrade pip setuptools wheel isort
-RUN pip install jax[cuda11_cudnn82] -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+#RUN pip install jax[cuda11_cudnn82] -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 
 # Install pip packages
 RUN mkdir /images
