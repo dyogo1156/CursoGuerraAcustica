@@ -1,5 +1,6 @@
 # base image
-FROM jupyter/datascience-notebook:x86_64-ubuntu-22.04
+FROM jupyter/base-notebook
+
 
 LABEL maintainer="Natanael Moura Junior <natmourajr@lps.ufrj.br>"
 
