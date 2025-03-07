@@ -5,6 +5,8 @@ python-dotenv==1.0.0
 imbalanced-learn==0.10.0
 librosa==0.9.2
 wandb~=0.13
+jupyter-server==2.15.0
+jupyterhub==5.2.1
 jupyterlab==4.3.5
 scikit-learn==1.6.1
 requests==2.31.0
