@@ -8,16 +8,6 @@ wandb~=0.13
 jupyterlab==4.0.0
 jupyterlab-server==2.0.0
 jupyterlab-git==0.41.0
-jupyterlab-lsp==4.0.0
-#jupyterlab-plotly==5.0.0
-#jupyterlab-toc==6.1.0
-jupyterlab-templates==0.3.0
-jupyterlab-system-monitor==0.8.0
-jupyterlab-quickopen==0.8.0
-jupyterlab-drawio==0.10.0
-jupyterlab-kite==2.0.0
-jupyterlab-omnisci==0.2.0
-jupyterlab-vega==4.0.0
 scikit-learn==1.7.1
 requests==2.31.0
 torch==2.0.1
@@ -28,7 +18,4 @@ plotly==5.3.1
 seaborn==0.11.2
 scipy==1.7.3
 scikit-image==0.19.0
-scikit-plot==0.3.7
-scikit-surprise==1.1.1
 scikit-multilearn==0.2.0
-scikit-tda==0.0.1
