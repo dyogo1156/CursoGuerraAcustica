@@ -1,7 +1,5 @@
 # base image
-FROM jupyter/base-notebook
-
-
+FROM pytorch/pytorch:2.6.0-cuda12.6-cudnn9-devel
 LABEL maintainer="Natanael Moura Junior <natmourajr@lps.ufrj.br>"
 
 USER root
@@ -15,13 +13,13 @@ RUN ls
 RUN ln -snf /usr/share/zoneinfo/Etc/UTC /etc/localtime \
     && echo "Etc/UTC" > /etc/timezone
 
-RUN apt-get upgrade -y
-RUN apt-get update -y
+#RUN apt-get upgrade -y
+#RUN apt-get update -y
 RUN apt-get install -y python3 python3-pip python3-dev python3-venv
 RUN apt-get install -y xzdec
 RUN apt-get install -y libsndfile1
 RUN apt-get install -y libsndfile-dev
-RUN apt-get install git -y
+RUN apt-get install -y git
 
 
 # RUN \
@@ -50,3 +48,4 @@ RUN cd /images && git clone https://github.com/natmourajr/CursoGuerraAcustica.gi
 RUN cd /images/CursoGuerraAcustica 
 RUN sudo pip install -r /images/CursoGuerraAcustica/requirements.txt
 RUN cd / && rm -rf /images
+
