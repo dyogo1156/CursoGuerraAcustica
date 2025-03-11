@@ -1,5 +1,5 @@
 # base image
-FROM pytorch/pytorch:2.6.0-cuda12.6-cudnn9-devel
+FROM FROM tensorflow/tensorflow:latest-gpu-jupyter
 LABEL maintainer="Natanael Moura Junior <natmourajr@lps.ufrj.br>"
 
 USER root
