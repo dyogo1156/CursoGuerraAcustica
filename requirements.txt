@@ -17,5 +17,5 @@ bokeh==3.6.3
 plotly==6.0.0
 seaborn==0.13.2
 scipy==1.15.2
-scikit-image==0.19.0
-scikit-multilearn==0.2.0
+#scikit-image==0.19.0
+#scikit-multilearn==0.2.0

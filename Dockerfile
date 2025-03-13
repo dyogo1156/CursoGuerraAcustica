@@ -46,6 +46,6 @@ RUN apt-get install -y git
 RUN mkdir /images
 RUN cd /images && git clone https://github.com/natmourajr/CursoGuerraAcustica.git
 RUN cd /images/CursoGuerraAcustica 
-RUN sudo pip install -r /images/CursoGuerraAcustica/requirements.txt
+RUN pip install -r /images/CursoGuerraAcustica/requirements.txt
 RUN cd / && rm -rf /images
 
