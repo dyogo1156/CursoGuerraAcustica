@@ -48,4 +48,6 @@ RUN cd /images && git clone https://github.com/natmourajr/CursoGuerraAcustica.gi
 RUN cd /images/CursoGuerraAcustica 
 RUN pip install -r /images/CursoGuerraAcustica/requirements.txt
 RUN cd / && rm -rf /images
+RUN mkdir /tf/workspace
+RUN rm -rf /tf/tensorflow-tutorials
 
