@@ -116,7 +116,6 @@ Obs: `--no-cache` é pra limpar o cache e reiniciar o build
 docker push natmourajr/curso_guerra:lastest
 ```
 
-
 4. Caso não queira executar a imagem, basta puxar a imagem do Docker Hub
 ```bash
 docker pull curso_guerra:lastest
