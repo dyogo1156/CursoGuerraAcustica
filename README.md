@@ -121,7 +121,6 @@ docker push natmourajr/curso_guerra:lastest
 docker pull curso_guerra:lastest
 ```
 
-
 5. Com a imagem montada ou puxada, Rode a imagem Docker na sua máquina
 ```bash
 docker run --rm -it -v $(pwd):/tf/workspace -p 8880:8888 natmourajr/curso_guerra:lastest
