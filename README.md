@@ -111,20 +111,26 @@ docker build . --tag=natmourajr/curso_guerra:lastest --no-cache
 ```
 Obs: `--no-cache` é pra limpar o cache e reiniciar o build
 
-3. Suba a imagem montada para o Docker-Hub
+3. Suba a imagem montada para o Docker Hub
 ```bash
 docker push natmourajr/curso_guerra:lastest
 ```
 
 4. Caso não queira construir toda a imagem (demanda bastante tempo!), basta puxar a imagem do Docker Hub
 ```bash
-docker pull curso_guerra:lastest
+docker pull natmourajr/curso_guerra:lastest
 ```
 
 5. Com a imagem montada ou puxada, Rode a imagem Docker na sua máquina
 ```bash
 docker run --rm -it -v $(pwd):/tf/workspace -p 8880:8888 natmourajr/curso_guerra:lastest
 ```
+
+6. Abra o link e substitua o último 8 depois do IP por 0 
+```bash
+http://127.0.0.1:8888 -> http://127.0.0.1:8880
+```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
@@ -152,9 +158,6 @@ Use this space to show useful examples of how a project can be used. Additional 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 
 
 <!-- CONTRIBUTING -->
