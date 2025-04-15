@@ -107,7 +107,7 @@ git clone https://github.com/natmourajr/CursoGuerraAcustica.git
 ```
 2. Monte a imagem Docker na sua máquina
 ```bash
-docker build . --tag=natmourajr/curso_guerra_acustica:lastest --no-cache
+docker build . --tag=natmourajr/curso_ga:lastest --no-cache
 ```
 Obs: `--no-cache` é pra limpar o cache e reiniciar o build
 
