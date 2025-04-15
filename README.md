@@ -113,12 +113,12 @@ Obs: `--no-cache` é pra limpar o cache e reiniciar o build
 
 3. Rode a imagem Docker na sua máquina
 ```bash
-docker run --rm -it -v $(pwd):/workspace natmourajr/sonarnovelty:lastest 
+docker run --rm -it -v $(pwd):/tf/workspace -p 8880:8888 natmourajr/curso_ga:lastest 
 ```
 
 Obs: Caso esteja no Windows, rode o código abaixo
 ```bash
-docker run --rm -it -v ${pwd}:/workspace natmourajr/sonarnovelty:lastest 
+docker run --rm -it -v ${pwd}:/tf/workspace -p 8880:8888 natmourajr/curso_ga:lastest 
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
