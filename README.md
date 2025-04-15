@@ -115,6 +115,11 @@ Obs: `--no-cache` é pra limpar o cache e reiniciar o build
 ```bash
 docker run --rm -it -v $(pwd):/workspace natmourajr/sonarnovelty:lastest 
 ```
+
+3. Caso esteja no Windows, rode o código abaixo
+```bash
+docker run --rm -it -v ${pwd}:/workspace natmourajr/sonarnovelty:lastest 
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
