@@ -51,3 +51,4 @@ RUN cd / && rm -rf /images
 RUN mkdir /tf/workspace
 RUN rm -rf /tf/tensorflow-tutorials
 
+ 
